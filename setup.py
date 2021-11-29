@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
    name='decalib',
@@ -6,5 +6,6 @@ setup(
    description='A useful module',
    author='',
    author_email='',
-   packages=['decalib'],  #same as name
+   packages=find_packages(),
+   url="https://github.com/dhkwak/simple_scheduler"
 )

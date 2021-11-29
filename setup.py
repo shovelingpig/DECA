@@ -7,5 +7,5 @@ setup(
    author='',
    author_email='',
    packages=find_packages(),
-   url="https://github.com/dhkwak/simple_scheduler"
+   url="https://github.com/shovelingpig/DECA"
 )
